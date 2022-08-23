@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.tutorial4.CalcTest" time="0.081" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.tutorial4.CalcTest" time="0.094" tests="2" errors="0" skipped="0" failures="1">
   <properties>
     <property name="sun.desktop" value="gnome"/>
     <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="NZ"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-11-openjdk-amd64/lib"/>
-    <property name="sun.java.command" value="/home/sufyan/Documents/UOA/JAVA/tutorial4/target/surefire/surefirebooter12183921280969341286.jar /home/sufyan/Documents/UOA/JAVA/tutorial4/target/surefire 2022-08-23T22-42-37_767-jvmRun1 surefire12490792533997677869tmp surefire_010013418632725659730tmp"/>
+    <property name="sun.java.command" value="/home/sufyan/Documents/UOA/JAVA/tutorial4/target/surefire/surefirebooter11824909851355748061.jar /home/sufyan/Documents/UOA/JAVA/tutorial4/target/surefire 2022-08-23T22-45-24_647-jvmRun1 surefire8757841781459551374tmp surefire_04009459039039325004tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/home/sufyan/Documents/UOA/JAVA/tutorial4/target/test-classes:/home/sufyan/Documents/UOA/JAVA/tutorial4/target/classes:/home/sufyan/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.8.2/junit-jupiter-engine-5.8.2.jar:/home/sufyan/.m2/repository/org/junit/platform/junit-platform-engine/1.8.2/junit-platform-engine-1.8.2.jar:/home/sufyan/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/home/sufyan/.m2/repository/org/junit/platform/junit-platform-commons/1.8.2/junit-platform-commons-1.8.2.jar:/home/sufyan/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.8.2/junit-jupiter-api-5.8.2.jar:/home/sufyan/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/home/sufyan/.m2/repository/org/assertj/assertj-core/3.21.0/assertj-core-3.21.0.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -32,7 +32,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="/home/sufyan/Documents/UOA/JAVA/tutorial4/target/surefire/surefirebooter12183921280969341286.jar"/>
+    <property name="surefire.real.class.path" value="/home/sufyan/Documents/UOA/JAVA/tutorial4/target/surefire/surefirebooter11824909851355748061.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="11.0.16+8-post-Ubuntu-0ubuntu122.04"/>
     <property name="user.name" value="sufyan"/>
@@ -57,5 +57,10 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="55.0"/>
   </properties>
-  <testcase name="testAddition" classname="com.tutorial4.CalcTest" time="0.052"/>
+  <testcase name="testAddition" classname="com.tutorial4.CalcTest" time="0.054"/>
+  <testcase name="testSubtraction" classname="com.tutorial4.CalcTest" time="0.006">
+    <failure type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <0> but was: <4>
+	at com.tutorial4.CalcTest.testSubtraction(CalcTest.java:15)
+]]></failure>
+  </testcase>
 </testsuite>
